@@ -12,6 +12,7 @@ import java.util.Random;
 import javax.swing.*;
 
 public class TicTacToe implements ActionListener {
+	//make UI
 	JFrame frame=new JFrame();
 	JPanel title_panel=new JPanel();
 	JPanel control_panel=new JPanel();
@@ -27,7 +28,7 @@ public class TicTacToe implements ActionListener {
 	
 	
 TicTacToe(){
-	   frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        frame.setSize(500, 500);
        frame.getContentPane().setBackground(new Color(12, 12, 12));
        frame.setLayout(new BorderLayout());
